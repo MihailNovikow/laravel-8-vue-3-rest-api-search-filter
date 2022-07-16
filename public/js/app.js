@@ -40570,13 +40570,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _CompaniesCreate_vue_vue_type_template_id_17843528__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CompaniesCreate.vue?vue&type=template&id=17843528 */ "./resources/js/components/companies/CompaniesCreate.vue?vue&type=template&id=17843528");
 /* harmony import */ var _CompaniesCreate_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CompaniesCreate.vue?vue&type=script&lang=js */ "./resources/js/components/companies/CompaniesCreate.vue?vue&type=script&lang=js");
-/* harmony import */ var C_Users_user_Downloads_lv_lv_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_user_Desktop_laravel_8_vue_3_rest_api_search_filter_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_Users_user_Downloads_lv_lv_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CompaniesCreate_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CompaniesCreate_vue_vue_type_template_id_17843528__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/companies/CompaniesCreate.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_user_Desktop_laravel_8_vue_3_rest_api_search_filter_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CompaniesCreate_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CompaniesCreate_vue_vue_type_template_id_17843528__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/companies/CompaniesCreate.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40598,13 +40598,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _CompaniesEdit_vue_vue_type_template_id_cc10bf94__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CompaniesEdit.vue?vue&type=template&id=cc10bf94 */ "./resources/js/components/companies/CompaniesEdit.vue?vue&type=template&id=cc10bf94");
 /* harmony import */ var _CompaniesEdit_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CompaniesEdit.vue?vue&type=script&lang=js */ "./resources/js/components/companies/CompaniesEdit.vue?vue&type=script&lang=js");
-/* harmony import */ var C_Users_user_Downloads_lv_lv_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_user_Desktop_laravel_8_vue_3_rest_api_search_filter_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_Users_user_Downloads_lv_lv_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CompaniesEdit_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CompaniesEdit_vue_vue_type_template_id_cc10bf94__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/companies/CompaniesEdit.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_user_Desktop_laravel_8_vue_3_rest_api_search_filter_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CompaniesEdit_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CompaniesEdit_vue_vue_type_template_id_cc10bf94__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/companies/CompaniesEdit.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40626,13 +40626,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _CompaniesIndex_vue_vue_type_template_id_3297bf54__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CompaniesIndex.vue?vue&type=template&id=3297bf54 */ "./resources/js/components/companies/CompaniesIndex.vue?vue&type=template&id=3297bf54");
 /* harmony import */ var _CompaniesIndex_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CompaniesIndex.vue?vue&type=script&lang=js */ "./resources/js/components/companies/CompaniesIndex.vue?vue&type=script&lang=js");
-/* harmony import */ var C_Users_user_Downloads_lv_lv_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_user_Desktop_laravel_8_vue_3_rest_api_search_filter_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_Users_user_Downloads_lv_lv_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CompaniesIndex_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CompaniesIndex_vue_vue_type_template_id_3297bf54__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/companies/CompaniesIndex.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_user_Desktop_laravel_8_vue_3_rest_api_search_filter_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CompaniesIndex_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CompaniesIndex_vue_vue_type_template_id_3297bf54__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/companies/CompaniesIndex.vue"]])
 /* hot reload */
 if (false) {}
 

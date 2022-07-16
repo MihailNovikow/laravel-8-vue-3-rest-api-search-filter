@@ -24,10 +24,10 @@ class AdRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required'],
+            'name' => ['string'],
             'url' => ['url'],
             'price' => ['$string'],
-            'tags'=> '',
+            'tags'=> [''],
         ];
     }
 }

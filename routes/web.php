@@ -16,6 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/ads', function () {
+    return view('ad.index');
+});
+
+Route::get('/products', '\App\Http\Controllers\ProductController@index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -26,3 +31,4 @@ require __DIR__.'/auth.php';
 Route::view('/{any}', 'dashboard')
     ->middleware('auth')
     ->where('any', '.*');
+

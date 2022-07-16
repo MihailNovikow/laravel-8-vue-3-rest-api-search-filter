@@ -11,7 +11,7 @@ class Ad extends Model
     use HasFactory;
     use Filterable;
     protected $guarded = false;
-    protected $fillable = ['name', 'url', 'price'];
+    
 
     public function category()
     {
