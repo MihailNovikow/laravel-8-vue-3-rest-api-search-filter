@@ -3,11 +3,11 @@ require('./bootstrap');
 require('alpinejs');
 
 import { createApp } from "vue";
-import router from './router/index'
-import AdsIndex from './components/ads/AdsIndex'
+import router from './router'
+import CompaniesIndex from './components/companies/CompaniesIndex'
 
 createApp({
     components: {
-        AdsIndex
+        CompaniesIndex
     }
 }).use(router).mount('#app')
