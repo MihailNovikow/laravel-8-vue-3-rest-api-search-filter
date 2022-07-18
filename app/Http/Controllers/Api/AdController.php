@@ -4,6 +4,10 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\AdRequest;
+use App\Http\Requests\FilterRequest;
+use App\Http\Filters\AdFilter;
+use App\Http\Filters\AbstractFilter;
+use App\Http\Filters\FilterInterface;
 use App\Http\Resources\AdResource;
 use App\Models\Ad;
 use Illuminate\Http\Request;
@@ -16,27 +20,27 @@ class AdController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function __invoke(FilterRequest $request)
+    public function index(FilterRequest $request)
     {
         $data = $request->validated();
         
         $filter = app()->make(AdFilter::class, ['queryParams' => array_filter($data)]);
-        $ads= Ad::filter($filter);
-        dd($ads);
+        $ads = Ad::filter($filter)->paginate(10);
         
         
-        //$ads = Ad::paginate(10);
-        //return view('ads.index', compact('ads'));
+        
+        $ads = Ad::paginate(10);
+        return view('ad.index', compact('ads'));
 
     }
-
+/*
     public function index()
     {
         $ads = Ad::filter($filter)->limit(10)->get();
         return AdResource::collection(Ad::all());
     }
 
-    /**
+    
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
