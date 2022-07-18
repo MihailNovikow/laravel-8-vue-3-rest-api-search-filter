@@ -25,19 +25,14 @@ class AdController extends Controller
         $data = $request->validated();
         
         $filter = app()->make(AdFilter::class, ['queryParams' => array_filter($data)]);
-        $ads = Ad::filter($filter)->paginate(10);
-        
-        
-        
-        $ads = Ad::paginate(10);
-        return view('ad.index', compact('ads'));
-
+        $ads = Ad::filter($filter)->paginate(10);      
+        return AdResource::collection(Ad::filter($filter)->paginate(10));
     }
 /*
     public function index()
     {
-        $ads = Ad::filter($filter)->limit(10)->get();
-        return AdResource::collection(Ad::all());
+        
+        //return view('ad.index', compact('ads'));
     }
 
     

@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/ads', function () {
+/*Route::get('/ads', function () {
     return view('ad.index');
-});
+});*/
 
 
 
