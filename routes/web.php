@@ -20,7 +20,7 @@ Route::get('/ads', function () {
     return view('ad.index');
 });
 
-Route::get('/products', '\App\Http\Controllers\ProductController@index');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
